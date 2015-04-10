@@ -1,0 +1,8 @@
+# -*- mode: snippet; require-final-newline: nil -*-
+# name: map
+# key: map
+# binding: direct-keybinding
+# --
+map(function (${1:x}) {
+    $0
+});

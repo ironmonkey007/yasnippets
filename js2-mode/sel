@@ -1,0 +1,11 @@
+# -*- mode: snippet; require-final-newline: nil -*-
+# name: sel
+# key: sel
+# binding: direct-keybinding
+# --
+d3.select("$1")
+    .selectAll("$2")
+    .data($3)
+    .enter()
+    .append("$4")
+    $0

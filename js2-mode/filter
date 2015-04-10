@@ -1,0 +1,8 @@
+# -*- mode: snippet; require-final-newline: nil -*-
+# name: filter
+# key: filter
+# binding: direct-keybinding
+# --
+filter (function (${1:x}) {
+    $0
+});

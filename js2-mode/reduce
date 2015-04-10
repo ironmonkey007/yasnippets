@@ -1,0 +1,8 @@
+# -*- mode: snippet; require-final-newline: nil -*-
+# name: reduce
+# key: reduce
+# binding: direct-keybinding
+# --
+reduce(function(prevVal, curVal, index, array) {
+    $0 
+});

@@ -1,0 +1,24 @@
+# -*- mode: snippet; require-final-newline: nil -*-
+# name: module
+# key: module
+
+# binding: direct-keybinding
+# --
+
+if (typeof module == 'undefined') {
+    module = {};
+}
+
+// $1 module
+module.exports =  function () {
+
+    var $2 = function () {
+        $0
+    };
+    
+    exports.$2 = $2;
+    return exports;
+};
+
+// name for old style JS to use
+var $1 = module.exports;

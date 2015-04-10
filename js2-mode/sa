@@ -1,0 +1,6 @@
+# -*- mode: snippet; require-final-newline: nil -*-
+# name: sa
+# key: sa
+# binding: direct-keybinding
+# --
+selectAll("$0")

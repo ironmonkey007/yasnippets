@@ -1,0 +1,7 @@
+# -*- mode: snippet; require-final-newline: nil -*-
+# name: pv
+# key: pv 
+# binding: direct-keybinding
+# --
+println "$1 = \${$1}"
+$0
