@@ -1,8 +1,9 @@
 # -*- mode: snippet; require-final-newline: nil -*-
-# name: reduce
-# key: reduce
+# name: find
+# key: find
 # binding: direct-keybinding
 # --
-_.reduce(${1:data}, function (result, n, key) {
+
+_.find(${1:data}, function (${2:x}) {
     return $0;
 });

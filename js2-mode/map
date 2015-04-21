@@ -3,6 +3,6 @@
 # key: map
 # binding: direct-keybinding
 # --
-map(function (${1:x}) {
-    $0
+_.map(${1:data}, function (${2:x}) {
+    return $0;
 });

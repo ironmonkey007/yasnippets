@@ -1,8 +1,7 @@
 # -*- mode: snippet; require-final-newline: nil -*-
-# name: forEach
-# key: fore
+# name: con
+# key: con
 # binding: direct-keybinding
 # --
-_.forEach(${1:data}, function (${2:x}) {
-    $0
-});
+console.log("$1",$1);
+$0
